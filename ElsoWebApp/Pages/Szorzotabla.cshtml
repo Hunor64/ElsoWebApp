@@ -1,0 +1,13 @@
+﻿@page
+@model ElsoWebApp.Pages.SzorzotablaModel
+@{
+}
+
+<h1>Szorzótábla</h1>
+<form method="post">
+    <input type="number" name="Szam" />
+    <input type="submit" />
+</form>
+
+<h2>Kapott érték:</h2>
+@Model.Szam
